@@ -204,4 +204,8 @@ footer {
         max-width: 80%;
         margin-left: 10%;
     }
+
+    .txtbox {
+        max-width: 75%;
+    }
 }
