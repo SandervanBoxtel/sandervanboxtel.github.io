@@ -83,10 +83,18 @@ html {
     transition: 0.3s;
 }
 
-.aboutmetitle {
+.title {
     margin-top: 6rem;
     margin-bottom: 1.3rem;
     text-align: center;
+}
+
+.title::before {
+    content: "/";
+    color: #606b9c !important;
+    font-size: 1em;
+    padding-bottom: 2px;
+    padding-right: 10px;
 }
 
 .txtbox {
