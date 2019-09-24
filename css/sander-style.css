@@ -177,13 +177,13 @@ footer {
 .fab {
     padding: 13px;
     font-size: 30px;
-    transition: 0.3s;
+    transition: transform 0.3s;
     color: white;
 }
 
 .fab:hover {
     color: #606b9c;
-    transition: 0.3s;
+    transform: scale(1.5);
 }
 
 @media (max-width: 767px) {
