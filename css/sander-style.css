@@ -172,7 +172,6 @@ footer {
 .emailstyling:hover {
     color: #606b9c;
     transition: 0.3s;
-    transform: scale(1.6) rotate(25deg);
 }
 
 .fab {
@@ -180,6 +179,7 @@ footer {
     font-size: 30px;
     transition: 0.3s;
     color: white;
+    transform: scale(1.6) rotate(25deg);
 }
 
 .fab:hover {
