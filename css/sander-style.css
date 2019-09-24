@@ -172,6 +172,7 @@ footer {
 .emailstyling:hover {
     color: #606b9c;
     transition: 0.3s;
+    transform: scale(1.6) rotate(25deg);
 }
 
 .fab {
