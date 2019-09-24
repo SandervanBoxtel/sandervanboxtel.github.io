@@ -98,10 +98,12 @@ html {
 
 .txtboxstyling {
     color: #606b9c;
+    transition: 0.3s;
 }
 
 .txtboxstyling:hover {
     color: #343a40;
+    transition: 0.3s;
 }
 
 .cardimgs {
