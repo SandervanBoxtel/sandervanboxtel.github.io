@@ -177,13 +177,14 @@ footer {
 .fab {
     padding: 13px;
     font-size: 30px;
-    transition: transform 0.3s;
+    transition: transform 0.85s ease-in-out;
     color: white;
 }
 
 .fab:hover {
     color: #606b9c;
-    transform: scale(1.5);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 @media (max-width: 767px) {
