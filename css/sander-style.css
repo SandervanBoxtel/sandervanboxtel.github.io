@@ -141,7 +141,7 @@ footer {
 }
 
 .back-to-top::before {
-    content: url(/img/whitearrow.png);
+    content: url(/img/bluearrow.png);
     position: absolute;
     transition: 0.3s;
     top: 55%;
@@ -150,7 +150,7 @@ footer {
 }
 
 .back-to-top:hover::before {
-    content: url(/img/bluearrow.png);
+    content: url(/img/whitearrow.png);
     transition: 0.3s;
 }
 
