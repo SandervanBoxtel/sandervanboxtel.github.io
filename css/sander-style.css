@@ -168,6 +168,7 @@ footer {
     padding: 13px;
     font-size: 30px;
     transition: 0.3s;
+    color: white;
 }
 
 .fab:hover {
