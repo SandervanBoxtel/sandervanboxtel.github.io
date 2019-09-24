@@ -95,6 +95,15 @@ html {
     margin-bottom: 6rem;
     margin-top: 2.3rem;
 }
+
+.txtboxstyling {
+    color: #606b9c;
+}
+
+.txtboxstyling:hover {
+    color: #343a40;
+}
+
 .cardimgs {
     height: auto;
     margin-top: 1.3rem;
