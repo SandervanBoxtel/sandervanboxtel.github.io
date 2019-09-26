@@ -65,6 +65,81 @@ html {
     transform: translateY(-50%);
 }
 
+.line1 {
+    position: relative;
+    width: 7em;
+    margin: 0 auto;
+    border-right: 2px solid white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.anim-typewriter {
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 7em;}
+}
+
+@keyframes blinkTextCursor {
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
+.line2 {
+    position: relative;
+    width: 7em;
+    margin: 0 auto;
+    border-right: 2px solid white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.anim-typewriter2 {
+    animation: typewriter2 2s steps(44) 1s 1 normal both,
+               blinkTextCursor2 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter2{
+    from{width: 0;}
+    to{width: 10em;}
+}
+
+@keyframes blinkTextCursor2 {
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
+.line3 {
+    position: relative;
+    width: 7em;
+    margin: 0 auto;
+    border-right: 2px solid white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.anim-typewriter3 {
+    animation: typewriter3 2s steps(44) 1s 1 normal both,
+               blinkTextCursor3 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter3{
+    from{width: 0;}
+    to{width: 8.5em;}
+}
+
+@keyframes blinkTextCursor3 {
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
 .logonav {
     height: 2rem;
     position: absolute;
