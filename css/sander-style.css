@@ -152,12 +152,13 @@ footer {
 
 .back-to-top:hover {
     border: 3px solid #606b9c;
-    transition: all 0.3s;
+    transition: 0.3s;
 }
 
 .back-to-top::before {
     content: url(/img/bluearrow.png);
     position: absolute;
+    transition: 0.3s;
     top: 55%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -165,6 +166,7 @@ footer {
 
 .back-to-top:hover::before {
     content: url(/img/whitearrow.png);
+    transition: 0.3s;
 }
 
 .emailstyling {
