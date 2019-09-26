@@ -65,6 +65,8 @@ html {
     transform: translateY(-50%);
 }
 
+/* Line 1 */ 
+
 .line1 {
     position: relative;
     width: 7em;
@@ -90,6 +92,8 @@ html {
     to{border-right-color: transparent;}
 }
 
+/* Line 2 */
+
 .line2 {
     position: relative;
     width: 7em;
@@ -114,6 +118,8 @@ html {
     from{border-right-color: white;}
     to{border-right-color: transparent;}
 }
+
+/* Line 3 */
 
 .line3 {
     position: relative;
