@@ -152,7 +152,7 @@ footer {
 
 .back-to-top:hover {
     border: 3px solid #606b9c;
-    transition: 0.3s;
+    transition: all 0.3s;
 }
 
 .back-to-top::before {
