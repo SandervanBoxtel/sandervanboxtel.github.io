@@ -65,6 +65,10 @@ html {
     transform: translateY(-50%);
 }
 
+.logonav {
+    height: 30px;
+}
+
 .btn {
     font-size: 18px;
     color: white;
