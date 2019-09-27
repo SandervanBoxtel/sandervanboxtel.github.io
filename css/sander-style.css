@@ -146,6 +146,15 @@ html {
     to{border-right-color: transparent;}
 }
 
+.h5txtstyle{
+    color: #606b9c;
+    transition: 0.3s all;
+}
+
+.h5txtstyle:hover{
+    color: #343a40;
+}
+
 .logonav {
     height: 2rem;
     position: absolute;
