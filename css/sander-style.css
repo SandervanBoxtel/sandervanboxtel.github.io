@@ -263,7 +263,6 @@ footer {
 
 .back-to-top:hover::before {
     content: url(/img/whitearrow.png);
-    transition: 0.3s;
 }
 
 .emailstyling {
