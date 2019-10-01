@@ -26,6 +26,10 @@ html {
     margin-bottom: 0rem;
 }
 
+.carouselstyling {
+    max-height: 50rem;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
