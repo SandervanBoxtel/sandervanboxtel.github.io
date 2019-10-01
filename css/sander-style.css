@@ -1,6 +1,11 @@
 @font-face {
-    src: url(/fonts/BebasNeue-Regular.ttf);
-    font-family: bebas;
+    src: url(/fonts/Roboto-Regular.ttf);
+    font-family: roboto;
+}
+
+@font-face {
+    src: url(/fonts/Roboto-Bold.ttf);
+    font-family: robotoblack;
 }
 
 
@@ -14,7 +19,11 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: bebas;
+    font-family: robotoblack;
+}
+
+p {
+    font-family: roboto;
 }
 
 .borderline {
@@ -94,7 +103,7 @@ h1, h2, h3, h4, h5 {
 
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 5.5em;}
+    to{width: 7em;}
 }
 
 @keyframes blinkTextCursor {
@@ -121,7 +130,7 @@ h1, h2, h3, h4, h5 {
 
 @keyframes typewriter2{
     from{width: 0;}
-    to{width: 8em;}
+    to{width: 10em;}
 }
 
 @keyframes blinkTextCursor2 {
@@ -148,7 +157,7 @@ h1, h2, h3, h4, h5 {
 
 @keyframes typewriter3{
     from{width: 0;}
-    to{width: 7em;}
+    to{width: 8.5em;}
 }
 
 @keyframes blinkTextCursor3 {
