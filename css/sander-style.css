@@ -1,3 +1,9 @@
+@font-face {
+    src: url(/fonts/BebasNeue-Regular.ttf);
+    font-family: bebas;
+}
+
+
 body {
     color: #343a40;
 }
@@ -5,6 +11,10 @@ body {
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: bebas;
 }
 
 .borderline {
@@ -84,7 +94,7 @@ html {
 
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 7em;}
+    to{width: 5.5em;}
 }
 
 @keyframes blinkTextCursor {
@@ -111,7 +121,7 @@ html {
 
 @keyframes typewriter2{
     from{width: 0;}
-    to{width: 10em;}
+    to{width: 8em;}
 }
 
 @keyframes blinkTextCursor2 {
@@ -138,7 +148,7 @@ html {
 
 @keyframes typewriter3{
     from{width: 0;}
-    to{width: 8.5em;}
+    to{width: 7em;}
 }
 
 @keyframes blinkTextCursor3 {
