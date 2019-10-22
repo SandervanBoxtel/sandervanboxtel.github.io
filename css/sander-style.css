@@ -264,6 +264,11 @@ p {
     margin-top: 1.3rem;
 }
 
+.card.shadow1 {
+    height: 40.9rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
 .inner {
     overflow: hidden;
 }
@@ -406,5 +411,9 @@ footer {
 
     .homewrapper {
         display: block;
+    }
+
+    .card.shadow1 {
+        height: auto;
     }
 }
