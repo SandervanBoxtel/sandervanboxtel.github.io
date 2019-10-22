@@ -119,6 +119,10 @@ p {
 
 /* Line 1 */ 
 
+.homewrapper {
+    display: none;
+}
+
 .line1 {
     position: relative;
     width: 7em;
@@ -366,13 +370,23 @@ footer {
     }
 
     .section1 .row .col-md-6 .panel {
-        top: 3.9rem;
+        display: none;
+    }
+
+    .section1 {
+        margin-top: 0px;
     }
 }
 
-@media screen and (max-width: 1025px) {
+@media (max-width: 1025px) {
     .section1 .row .col-md-6 .panel {
         top: 6.5vmin;
+    }
+}
+
+@media (max-width: 770px) {
+    .section1 .row .col-md-6 .panel {
+        top: 4.9vmin;
     }
 }
 
@@ -388,5 +402,9 @@ footer {
     .card {
         max-width: 80%;
         margin-left: 10%;
+    }
+
+    .homewrapper {
+        display: block;
     }
 }
