@@ -295,6 +295,20 @@ footer {
     transition: 0.3s;
 }
 
+.emailstyling::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    display: block;
+    background: #606b9c;
+    transition: width 0.3s;
+
+}
+
+.emailstyling:hover::after {
+    width: 100%;
+}
+
 .emailstyling:hover {
     color: #606b9c;
     transition: 0.3s;
