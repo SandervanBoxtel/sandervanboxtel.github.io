@@ -426,7 +426,7 @@ a.nav-link:hover {
 }
 
 .contact-form-text:focus {
-    box-shadow: 0 0 10px 4px #ffd300;
+    box-shadow: 0 0 10px 4px #060753;
     color: #fff;
 }
 
