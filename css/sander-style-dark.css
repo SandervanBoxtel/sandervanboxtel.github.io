@@ -180,6 +180,10 @@ html {
     margin-bottom: 13px;
 }
 
+.portfolioimg:hover {
+    transform: scale(1.13);
+}
+
 .portfoliotitel {
     text-transform: uppercase;
     letter-spacing: 3px;
