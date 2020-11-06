@@ -51,21 +51,21 @@ html {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #ffd300; 
+    background: #070979; 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #bea41e; 
+    background: #060753; 
   }
 
   ::-moz-selection {
-      background: #ffd300;
+      background: #070979;
       color: white;
   }
 
   ::selection {
-    background: #ffd300;
+    background: #070979;
     color: white;
   }
 
@@ -298,7 +298,7 @@ html {
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #ffd300;
+    color: #070979;
 }
 
 a.nav-link {
@@ -306,7 +306,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: #ffd300 !important;
+    color: #070979 !important;
 }
 
 .btn {
